@@ -25,10 +25,9 @@ const HeroSection = () => {
             borderRadius: '50%',
             backgroundColor: 'rgba(128, 196, 233, 0.20)',
             filter: 'blur(5px)',
-            transform: 'rotate(-41deg)',
+            transform: 'rotate(-41deg) translate(50%, -50%)',
             top: '10%', // Adjust top position
-            left: '10%', // Adjust left position
-            transform: 'rotate(-41deg) translate(-50%, -50%)' // Rotate and center
+            left: '10%' // Adjust left position
           }}
         />
         {/* Ellipse 2 */}
@@ -40,10 +39,9 @@ const HeroSection = () => {
             borderRadius: '50%',
             backgroundColor: 'rgba(62, 3, 186, 0.20)',
             filter: 'blur(5px)',
-            transform: 'rotate(-40deg)',
+            transform: 'rotate(-40deg) translate(50%, -50%)',
             top: '10%', // Adjust top position
-            right: '10%', // Adjust right position
-            transform: 'rotate(-40deg) translate(50%, -50%)' // Rotate and center
+            right: '10%' // Adjust right position
           }}
         />
         {/* Ellipse 3 */}
@@ -55,10 +53,9 @@ const HeroSection = () => {
             borderRadius: '50%',
             backgroundColor: 'rgba(128, 196, 233, 0.20)',
             filter: 'blur(5px)',
-            transform: 'rotate(-131deg)',
+            transform: 'rotate(-131deg) translate(-50%, 50%)',
             bottom: '10%', // Adjust bottom position
-            left: '10%', // Adjust left position
-            transform: 'rotate(-131deg) translate(-50%, 50%)' // Rotate and center
+            left: '10%' // Adjust left position
           }}
         />
         {/* Ellipse 4 */}
@@ -70,10 +67,9 @@ const HeroSection = () => {
             borderRadius: '50%',
             backgroundColor: 'rgba(255, 127, 62, 0.20)',
             filter: 'blur(5px)',
-            transform: 'rotate(-33deg)',
+            transform: 'rotate(-33deg) translate(50%, 50%)',
             bottom: '-10%', // Adjust bottom position
-            right: '10%', // Adjust right position
-            transform: 'rotate(-33deg) translate(50%, 50%)' // Rotate and center
+            right: '10%' // Adjust right position
           }}
         />
       </div>
