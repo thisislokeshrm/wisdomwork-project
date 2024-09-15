@@ -2,7 +2,6 @@
 import HeroSection from '../components/HeroSection';
 import BenefitsSection from '../components/BenefitsSection';
 import SupportCategoriesSection from '../components/SupportCategoriesSection';
-import SocialMediaSection from '../components/SocialMediaSection';
 import RotatingTextScroll from '../components/RotatingTextScroll';
 
 
