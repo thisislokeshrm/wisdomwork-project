@@ -1,6 +1,7 @@
 // src/components/Navbar.tsx
 import React from 'react';
 import logo from "../../public/assets/images/logo.png";
+import Image from 'next/image';
 
 const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center">
         <div>
           <a className="font-bold text-[24px]" href="/">
-           <img src={logo.src} alt="logo" width={75} height={75} />
+           <Image src={logo.src} alt="logo" width={75} height={75} />
           </a>
         </div>
         <div className="space-x-8">
